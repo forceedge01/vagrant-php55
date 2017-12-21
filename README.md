@@ -7,7 +7,11 @@ The intended use is for unit testing some packages, it has the following configu
 - PHP 5.5.9
 - Apache 2
 
-at the time of writing. Almost every package uses composer which isn't bundled in at the moment, but I plan to.
+at the time of writing. Almost every package uses composer which isn't bundled in at the moment, but I plan to. For now go with this one liner inside the VM:
+
+```
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+```
 
 ## Installation:
 
